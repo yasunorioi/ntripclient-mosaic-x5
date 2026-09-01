@@ -23,6 +23,7 @@
 void setup() {
   NtripRover::Options o;
   o.board   = "mosaic-X5";
+  o.version = "1.0.0";
   o.atomCom = "COM2";        // Atom Grove is wired to mosaic COM2 on this unit
   NtripRover::begin(o);
 }
